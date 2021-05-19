@@ -30,7 +30,7 @@
     "think": {
       "services": [
         "yzh52521\\ThinkCurrency\\CurrencyService"
-      ],
+      ]
     }
-  },
+  }
 }
