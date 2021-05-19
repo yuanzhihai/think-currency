@@ -1,0 +1,38 @@
+{
+  "name": "yzh52521/think-currency",
+  "description": "A thinkphp package for current and historical currency exchange rates & crypto exchange rates based on the free API provided by exchangerate.host",
+  "keywords": [
+    "thinkphp",
+    "currency",
+    "currency converter",
+    "exchange rates"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Amr Shawky",
+      "homepage": "https://amrshawky.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.2",
+    "guzzlehttp/guzzle": ">=6.0",
+    "ext-json": "*",
+    "amrshawky/currency": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "yzh52521\\ThinkCurrency\\": "src"
+    }
+  },
+  "extra": {
+    "think": {
+      "services": [
+        "yzh52521\\ThinkCurrency\\CurrencyService"
+      ],
+    }
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}
